@@ -1,0 +1,155 @@
+body {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.titulo {
+  text-align: center;
+  color: green;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+  height: 10px;
+  background: #874f8fa2;
+  border: 0;
+}
+
+p {
+  text-align: center;
+  color: #000000;
+  font-size: 28px;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+  font-size: 20px;
+  color: inherit;
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+  color: inherit;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+span {
+  color: green;
+  font-size: 20px;
+  color: inherit;
+}
+
+.nutri {
+  width: 20%;
+  display: block;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.comidasaudavel {
+  width: 60%;
+  display: block;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.botoes {
+  margin-bottom: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+  background: rgb(184, 184, 70);
+  padding: 50px 20px;
+  width: 150px;
+  margin-bottom: 30px;
+  text-align: center;
+  border: 5px #1b7fb9a2 solid;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  color: rgb(243, 222, 29);
+}
+.box:hover {
+  background: rgb(124, 83, 6);
+  color: white;
+}
+.box2 {
+  background: rgba(78, 138, 29, 0.644);
+  padding: 50px 20px;
+  width: 150px;
+  margin-bottom: 30px;
+  text-align: center;
+  border: 5px rgb(124, 155, 127) solid;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  color: rgb(243, 222, 29);
+}
+.box2:hover {
+  background: rgb(79, 115, 156);
+  color: white;
+}
+
+@media (max-width: 650px) {
+  #videogalinha {
+    width: 60%;
+  }
+  .nutri {
+    width: 60%;
+    display: block;
+  }
+}
+
+/*:::::::Tablet:::::::*/
+
+@media (min-width: 651px) and (max-width: 1199px) {
+  #videogalinha {
+    width: 80%;
+  }
+  .nutri {
+    width: 80%;
+    display: block;
+  }
+}
+/*separar botoes do video*/
+.videoinfantil {
+  display: block;
+  margin-bottom: 20px;
+}
+button {
+  border-radius: 8px;
+  font-size: 25px;
+  background: rgb(184, 111, 111);
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(105, 172, 18);
+  color: white;
+}
+
+/*:::::::Celular:::::::*/
+
+@media (max-width: 650px) {
+  #videogalinha {
+    width: 100%;
+  }
+  .nutri {
+    width: 100%;
+    display: block;
+  }
+  .titulo {
+    color: rgb(182, 130, 47);
+  }
+}

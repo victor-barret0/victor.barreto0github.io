@@ -1,0 +1,93 @@
+/* Normalizações */
+
+body,
+h1,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Desktop - Estilos */
+
+h1 {
+  color: #a1d287;
+  font-size: 6rem;
+  text-align: center;
+  font-family: arial;
+  grid-column: 1/-1; /* grid-column: 1/-1: faz o h1 ocupar todas as colunas  */
+  text-shadow: 2px 2px 0.5px yellow;
+  letter-spacing: 0.315rem;
+  max-width: 1200px;
+}
+
+#principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+#principal hr {
+  display: none;
+}
+
+#principal article,
+p {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+  justify-content: center;
+}
+
+/* Media Queries */
+
+/* Celular */
+
+@media (max-width: 600px) {
+  #principal {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  #principal hr {
+    display: inherit;
+    background: #a1d287;
+    border: none;
+    height: 0.9375rem;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    grid-column: 1/-1; /* grid-column: 1/-1: faz o h1 ocupar todas as colunas  */
+    text-shadow: 2px 2px 0.5px yellow;
+    letter-spacing: 0.213rem;
+  }
+}
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 1200px) {
+  #principal {
+    margin: 1.25rem 1.25rem;
+  }
+  article p {
+    text-align: justify;
+  }
+
+  h1 {
+    color: rgba(0, 223, 156, 0.623);
+    letter-spacing: 00.213rem;
+    text-shadow: 2px 2px 0.5px rgb(43, 46, 46);
+  }
+}

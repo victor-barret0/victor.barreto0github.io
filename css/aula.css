@@ -1,0 +1,92 @@
+html {
+  scroll-behavior: smooth;
+}
+
+ol {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; /*altera o marcador*/
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+body {
+  margin: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  background: #596d81;
+  padding: 5px 15px;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  border: 3px solid transparent;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+nav a:hover {
+  /*mudança no elemento ao passar o mouse*/
+  border: 3px solid rgb(24, 12, 92);
+}
+/* ESTILOS */
+
+.px {
+  border: 1px solid #d3d3d3;
+  padding: 20px;
+  margin: 20px auto;
+  font-size: 24px;
+}
+
+.rem {
+  border: 1px solid #d3d3d3;
+  padding: 1.25rem;
+  margin: 20px auto;
+  font-size: 1.5rem;
+}
+
+.rem a,
+.px a {
+  padding: 15px;
+  background: #283747;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.px a {
+  padding: 15px;
+  background: #283747;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+h1 {
+  font-family: roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  text-shadow: 9px 8px 6px rgb(142, 145, 148);
+  letter-spacing: 5px;
+}
+
+#sobre {
+  border: 1px solid #d3d3d3;
+  padding: 20px;
+  margin: 20px auto;
+  font-size: 24px;
+}
+#sobre a {
+  padding: 15px;
+  background: #283747;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 8px;
+}

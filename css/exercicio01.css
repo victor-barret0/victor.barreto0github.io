@@ -1,0 +1,94 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+/* Estilo Globais */
+
+body {
+  background: rgb(254, 190, 1);
+  background: linear-gradient(
+    180deg,
+    rgba(254, 190, 1, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background-attachment: fixed;
+}
+
+hr {
+  height: 10px;
+  background: #000000;
+  border: 0;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  font-family: arial;
+  font-size: 35px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  color: #000;
+  background: #febe01;
+  border-radius: 5px;
+  font-family: "time new roman";
+  font-weight: 700;
+  font-size: 20px;
+}
+a:hover {
+  background: black;
+  color: #febe01;
+  border: 1px solid #fe;
+}
+
+span {
+  color: #febe01;
+  font-weight: 700;
+}
+
+p {
+  color: #b2b2b2;
+  font-family: arial;
+  font-size: 20px;
+}
+
+/* Classes */
+
+.titulo {
+  font-size: 70px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: time new roman;
+  font-weight: 700;
+}
+
+.box1 {
+  padding: 30px;
+  width: 50%;
+  margin: 20px auto;
+  border-radius: 5px;
+  background: #000;
+}
+
+/* .a:hover {
+  background-color: #000000;
+  border-color: #febe01;
+} */
+
+.box2 {
+  padding: 30px;
+  width: 50%;
+  margin: 20px auto;
+  border-radius: 5px;
+  background: #000;
+}
